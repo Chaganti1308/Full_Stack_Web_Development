@@ -1,0 +1,55 @@
+p{
+    font-size: large;
+}
+
+.block__kailash
+{
+    color: aqua;
+    background-color: black;
+}
+.block__amarnath{
+    color: aquamarine;
+    background-color: rgb(70, 68, 68);
+}
+.block__pandharpur{
+    color: brown;
+    background-color: bisque;
+}
+.block__puri{
+    color: orange;
+    background-color: black;
+}
+.block__kanvar{
+    color: red;
+    background-color: blue;
+}
+.block__chardham{
+    color:black;
+    background-color:yellow ;
+}
+.block__chotachardham{
+    color:white ;
+    background-color:black ;
+}
+.block__kashi{
+    color: orange;
+    background-color: blue;
+}
+.block__hemkund{
+    color: greenyellow;
+    background-color: grey;
+}
+.block__jain{
+    color: green;
+    background-color:rgb(116, 8, 8) ;
+}
+.block__vaishnodevi{
+    color: grey;
+    background-color:white ;
+}
+
+/*
+main div tag is treated as block
+and heading <p> treated as element
+
+*/
