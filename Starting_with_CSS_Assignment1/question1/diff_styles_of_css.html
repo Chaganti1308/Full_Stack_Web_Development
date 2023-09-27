@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different ways of adding CSS</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        h1{
+            color: crimson;
+        }
+        h2{
+            color: blueviolet;
+        }
+        h3{
+            color: cornflowerblue;
+        }
+        #internalcss .internal{
+            color:darkblue;
+            border: 1px solid;
+        }
+        p{
+            font-size: large;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> Different ways to add CSS</h1>
+    <h2>1.Inline CSS</h2>
+    <h2>2. Internal CSS</h2>
+    <h2>3. External CSS</h2>
+    <hr>
+    <div id="inlinecss">
+        <p>Inline CSS means adding the style to particular HTML element with out style tag.</p>
+        <h3>Example for Inline CSS : </h3>
+        <!-- styling paragraph color as red and adding black border -->
+        <p class="inline" style="color: red;border: 1px sold black;">I am adding inline CSS, on this paragraph element</p>
+    </div>
+    <hr>
+    <div id="internalcss">
+        <p>Internal CSS means adding style tag in head section of HTML document.</p>
+        <h3>Example for Internal CSS :</h3>
+        <!-- Styling paragraph with Internal CSS -->
+        <p class="internal">I am adding Internal CSS, on this paragraph element.</p>
+    </div>
+    <hr>
+    <div id="externalcss">
+        <p>External CSS means adding stylesheet to the document in head section with link.</p>
+        <h3>Example for External CSS</h3>
+        <!-- Styling paragraph with External CSS -->
+        <p class="external">I am adding External CSS, on this paragraph element.</p>
+    </div>
+</body>
+</html>

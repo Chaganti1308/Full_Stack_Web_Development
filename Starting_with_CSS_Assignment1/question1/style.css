@@ -1,0 +1,22 @@
+#externalcss .external{
+    color:burlywood;
+    font-family: verdana;
+}
+#externalcss h3{
+    color: rgb(165, 212, 212);
+}
+
+#inlinecss{
+    background-color: aquamarine;
+}
+
+#internalcss{
+    background-color: aqua;
+}
+
+#externalcss{
+    background-color: rgb(21, 116, 116);
+}
+
+
+
