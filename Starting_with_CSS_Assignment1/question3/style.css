@@ -1,0 +1,42 @@
+.container{
+    color:  rgb(0, 0, 0);
+    background-color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px;
+}
+
+h1{
+    color: black;
+    font-size: 30px;
+}
+
+.container-register{
+    color: white;
+    background-color: green;
+    opacity: 0.7;
+    padding: 10px 5px 10px 5px;
+}
+
+.container-register:hover{
+    opacity: 1;
+}
+
+.container input{
+    background-color: antiquewhite;
+    padding: 10px;
+    opacity: 0.7;
+    border:2px black solid;
+}
+
+.container input:hover{
+    opacity :1;
+}
+
+.container input:focus{
+    outline: none;
+    background-color: rgba(5, 5, 5, 0);
+}
+input[type=text],input[type=password], input[type=email], input[type=tel]{
+    width:30%;
+}
