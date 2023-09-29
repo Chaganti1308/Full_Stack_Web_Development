@@ -1,0 +1,35 @@
+
+.navigation-bar a{
+    color: white;
+
+}
+
+.navigation-bar ul li{
+    display: inline-block;
+}
+
+ul{
+    padding-right: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+li a{
+    display: inline-block;;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+li a:hover{
+    color:black ;
+    background-color: rgba(236, 221, 13, 0.5);
+}
+
+li a:focus{
+    color: black;
+}
